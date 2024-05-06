@@ -1,0 +1,53 @@
+.carousel-item {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.carousel-section{
+  position: relative;
+  z-index: -1;
+}
+.c-img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 10px;
+  color: white;
+  text-align: center;
+  z-index: 1 ; /* Ensure the overlay is above the carousel */
+}
+.Images{
+  height:60vh;
+}
+.carousel {
+  width: 60vw !important;
+margin-top:5% !important;
+  margin: 0 auto;
+  overflow: hidden; /* Ensure the carousel scrolls under the navbar */
+}
+
+.carousel-section {
+  margin-top: 20; /* Adjust for navbar height */
+}
+@media only screen and (max-width:768px) {
+  .carousel-section{
+    min-height:50vh;
+    margin-top:25% !important;
+    margin-bottom:10%;
+  }
+  .carousel{
+   
+    width:90vw !important;
+  }
+  
+  
+    }

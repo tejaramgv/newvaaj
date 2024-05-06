@@ -1,0 +1,151 @@
+/* .homes {
+    margin-top: 90px;
+    display: flex;
+    padding-bottom: 10px;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .carousel img{
+    object-fit: contain !important;
+  
+  }
+  .homes-content {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .big{
+    height:200px !important;
+  }
+ 
+  .c-img{
+    object-fit: cover;
+    border: solid red 2px;
+  
+  }
+  
+  .clientimages img {
+    max-width: 100%;
+    height: 80vh !important; 
+  }
+  
+  .clientimages {
+    border: solid red 2px;
+  }
+  
+  .paras span {
+    background-image: linear-gradient(to right, #c24f32, #c9844f);
+    color: transparent;
+    transition: all 0.5s ease;
+    background-clip: text;
+  }
+  
+  .paras span:hover {
+    font-style: italic;
+  }
+  
+  .paras h1 {
+    color: rgb(70, 68, 68);
+  }
+  
+  .clients{
+    margin-top:60px;
+  }
+  .paras {
+    width: 50vw;
+    margin-left:20%;
+  }
+  
+  .paras h2 {
+    color: rgb(92, 89, 89);
+    font-size: 15px;
+  }
+  
+  .btns {
+    text-decoration: none;
+    padding: 8px;
+    background-color: rgb(81, 109, 81);
+    color: white;
+  }
+  
+  @media only screen and (max-width: 768px) {
+    .homes {
+      flex-direction: column;
+      margin-top: -20px;
+      align-items: center;
+      height: 80vh;
+    }
+  
+    .homes img {
+      width: 100px;
+      height: 160px;
+      border-radius: 50%;
+    }
+  
+    .paras {
+      width: 90vw;
+      margin-top: -20%;
+    }
+  
+    .paras h1 {
+      font-size: 17px;
+    }
+  
+    .paras h2 {
+      font-size: 10px;
+    }
+  
+    .btns {
+      font-size: 10px;
+      padding: 5px;
+    }
+  
+    .boxes {
+      flex-direction: column;
+    }
+  }
+   */
+   
+
+
+   .carousel-section {
+    /* Styles for the carousel section container */
+    height:80vh;
+    position:relative;
+    z-index:-1;
+    margin-top:20%;
+  }
+  
+  .carousel-container {
+    width: 60vw;
+    height: 50vh;
+    margin: 0 auto;
+  }
+ 
+  .carousel {
+    width: 60vw !important;
+  margin-top:5%;
+  }
+  
+  .carousel-item {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .c-img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain; /* Adjust the object-fit property based on your image aspect ratio */
+  }
+  
+  @media only screen and (max-width:768px) {
+.carousel{
+  width:90vw !important;
+
+}
+
+
+  }

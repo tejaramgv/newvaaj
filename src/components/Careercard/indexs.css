@@ -1,0 +1,129 @@
+.row1{
+    display: flex;
+    justify-content: space-between;
+ align-items:center;
+}
+  .date{
+    display: flex;
+    align-items:center;
+    margin-right: 30px;
+  }
+  .dat{
+    font-size:0.9rem;
+    margin-left:3px;
+    color:rgb(78, 76, 76);
+  }
+  .title{
+    margin-left: 20px;
+    font-weight: bold;
+    font-size: 1.2rem;
+    color:rgb(49, 48, 48);
+  }
+  .time{
+    display:flex;
+    align-items:center;
+    color:purple;
+  }
+  .sizeicon{
+    font-size:12.5px;
+  }
+  .con{
+    display:flex;
+    justify-content:center;
+  }
+  .date span{
+    margin-right:3px;
+  }
+  .row2 h4{
+    font-size:12px;
+    color:rgb(148, 142, 142);
+  }
+  .open{
+    color:rgb(57, 185, 40);
+    font-size:0.9rem;
+    margin-left: 20px;
+  }
+  .row2{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  .location{
+    display:flex;
+    align-items:center;
+    margin:0px 20px;
+  
+  }
+  .location p{
+    margin-left:5px;
+  }
+  .type{
+    display: flex;
+    align-items: center;
+    margin:0px 20px;
+  }
+  .type p{
+    margin-left:5px;
+  }
+  .description p{
+    font-size: 0.9rem;
+    font-style: italic;
+    color: rgb(66, 67, 71);
+    border-bottom: 0.7px solid rgb(77, 74, 74);
+    text-align: justify;
+    margin: 30px;
+    padding-bottom: 20px;
+  }
+  .role p{
+    font-size: 0.9rem;
+    font-style: italic;
+    color: rgb(91, 92, 92);
+    text-align: justify;
+    margin: 30px;
+  }
+  .role h3{
+    margin-left: 30px;
+    color:rgb(44, 43, 43);
+  }
+  .description h3{
+    margin-left: 30px;
+    color:rgb(58, 57, 57);
+  }
+  button{
+    color: rgb(243, 246, 238);
+    background-color:rgb(83, 2, 83);
+    border-radius: 2px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    padding:7px;
+    outline:none;
+    border:none;
+    cursor:pointer;
+    margin-left: 80%;
+  }
+  .cardmain{
+    margin-top:5%;
+    border-left:solid 5px rgb(73, 2, 73);
+    width:98vw;
+    margin-bottom:0.5%;
+
+  }
+  @media only screen and (max-width:768px) {
+.dat{
+font-size:0.5rem;
+}
+.title{
+    font-size:12px;
+}
+.description h3{
+    font-size:10.5px;
+}
+.role p,.description p{
+    font-size:10.7px;
+}
+button{
+    margin-right:3%;
+    font-size:9px;
+}
+
+  }

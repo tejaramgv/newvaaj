@@ -1,0 +1,93 @@
+.footer{
+    display:flex;
+    justify-content:space-evenly;
+    /* align-items:center; */
+    background-color: rgb(27, 60, 156);
+   
+    color:white;
+ 
+    padding:10px;
+}
+.footer img{
+    width:100px;
+    height:100px;
+    border-radius:50%;
+}
+.icon{
+    display:flex;
+    align-items:center;
+}
+.icon span{
+    padding-left:8px;
+    font-size:16px;
+    margin-top:10px;
+    color:rgb(238, 235, 235);
+    padding-bottom:10px;
+}
+
+
+.items h1{
+    color:orange;
+    font-size:24px;
+    
+}
+.items p{
+    font-size:14px;
+    color:rgb(223, 221, 221);
+}
+.rights{
+    background-color: rgb(7, 20, 59);
+    color:white;
+}
+@keyframes slideimgAnimation {
+    from {
+      transform: translateX(100px) rotateY(0deg); /* Initial position below */
+      opacity: 1; /* Initial opacity to make it fade in */
+    }
+    to {
+      transform: translateX(0) rotateY(360deg); /* Final position at the top */
+      opacity: 1; /* Fully visible */
+    }
+  }
+
+
+.rights{
+    display:flex;
+    justify-content:space-around;
+}
+
+@media only screen and (max-width:768px){
+.footer{
+    flex-direction:column;
+    /* align-items:center; */
+}
+.items{
+    display:flex;
+    flex-direction:column;
+    padding-left:5%;
+    /* border:solid red 2px; */
+    /* align-items:center; */
+    
+}
+.items h1{
+    font-size:18px;
+}
+
+.rights{
+    flex-direction:column;
+    align-items: center;
+    font-size:10px;
+}
+.icon span{
+    font-size:11.5px;
+    /* text-align: justify; */
+}
+.footer img{
+    align-self: flex-end;
+    width:45px;
+    margin-right:5%;
+    height:45px;
+}
+
+
+}

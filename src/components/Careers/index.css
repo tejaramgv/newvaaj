@@ -1,0 +1,155 @@
+.career1{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .career2{
+    display: flex;
+    width:70%;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .career2 h4{
+    font-size:12px;
+}
+  .open{
+    color:green;
+
+  }
+  .career1 h4{
+    font-size:13px;
+  }
+  .Closed{
+    color:red;
+  }
+  .mainss{
+    display:flex;
+    margin-top:60px;
+    background-color:rgb(245, 241, 241);
+    margin-bottom:10px;
+    justify-content:center;
+  }
+  .career h4{
+    color:rgb(24, 23, 23);
+  }
+  .career h3{
+    color:rgb(22, 22, 22);
+  }
+
+  .career{
+    width: 80vw;
+    background-color:white;
+    box-sizing: content-box;
+    border-left:4px solid white;
+  
+   transition:background-color 0.4s ease;
+  
+    margin-top: 20px;
+    border-bottom: 0.2px solid rgb(160, 156, 156);
+  }
+  .career:hover{
+    background-color:rgb(218, 216, 216);
+    border:none;
+   
+    border-left:solid 4px purple;
+  }
+  .careers{
+    display: flex;
+    flex-direction: column;
+  }
+  .location{
+    display:flex;
+    color:rgb(110, 108, 108);
+    align-items:center;
+  
+  }
+  .posted{
+    display:flex;
+    align-items:center;
+  }
+  .posted h4{
+    margin-left:4px;
+    font-size:15px;
+    color:rgb(44, 43, 43);
+  }
+  .location p{
+    margin-left:5px;
+    font-size:14px;
+  
+  }
+  .type{
+    display: flex;
+    align-items: center;
+    color:rgb(73, 72, 72);
+  }
+  .type p{
+    margin-left:5px;
+    font-size:14px;
+  }
+  .careertext{
+    display:flex;
+    justify-content:space-around;
+    padding:10px;
+
+  }
+ 
+  .paragraph{
+    width:70%;
+    text-align: justify;
+    font-size:16px;
+    color:rgb(53, 52, 52);
+  }
+  .buttons{
+    color: rgb(83, 102, 151);
+    cursor:pointer;
+    transition:all 0.4s ease;
+   
+    background-color:transparent;
+  
+   
+  }
+  .careerlink{
+    text-decoration:none;
+    font-size:13px;
+    align-self: flex-end;
+  }
+  .buttons:hover{
+    color: rgb(8, 50, 163);
+
+  }
+ 
+  h3{
+    font-size: .91rem;
+  }
+  body{
+    overflow-x:hidden ;
+  }
+  @media (max-width: 768px) {
+    .career {
+      width: 96vw; /* Adjust width for smaller screens */
+      margin:auto; /* Center the career items */
+    }
+  
+  
+  .career1{
+    justify-content:space-evenly;
+  }
+  .career1 h3{
+    font-size:12px;
+  }
+  .posted h4{
+    font-size:10px;
+  }
+  .open{
+    font-size:9px;
+  }
+  .bookmark{
+    font-size:9px;
+  }
+  .paragraph{
+    font-size:13.5px;
+  }
+  .buttons{
+  font-size:11.5px;  
+  }
+  }
